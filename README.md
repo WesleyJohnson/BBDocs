@@ -11,5 +11,12 @@ The goal of this project is to attempt to discover more about the supoorted func
 
 *NOTE:* Again, this is not officially suported by Builbox or 8Cell. Some of these "APIs" may not be stable and could change or be removed without notice - as is the nature of beta software.
 
-## HOW
+## How?
 The various class interfaces that are available so far were discovered by adding a "Script" node to an object. Within the script node's `init` function, a simple property loop was done `for(var prop in this)` and each property was logged to the console `log("prop:" + prop)` (as of the time of writing this, the `log` method in buildbox only supports strings, so you must cocatenate the variable you're logging with a string) to determine the available methods. If a method returned an Object, the same process was used to determine that Object's type and available methods.
+
+## What Now?
+Once you're able to understand the available methods on the various Buildbox classes, you begin using them to add new functionality that might not be supported by existing presets. As an example, the Buildbox forum user *thatguyminib* posted in the Buildbox forums about how he was able to send signals from one Object to another.
+
+https://www.buildbox.com/forum/index.php?threads/buildbox-3-javascript-tips.13337/
+
+*NOTE:* thatguyminib is not associated with this project and discovered the ability to signal other objects through his own means. I just wanted to link to his discover as it further defines the usefulness of discovering an object's available methods.
