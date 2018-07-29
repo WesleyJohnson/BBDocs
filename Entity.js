@@ -4,6 +4,9 @@ class Entity {
     */
     component(name) {}
 
+    /*
+    @returns: ComponentPhysics3D or null
+    */
     physics() {}
 
     /*
