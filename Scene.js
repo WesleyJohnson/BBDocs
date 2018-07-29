@@ -34,9 +34,15 @@ class Scene {
 
     pushNavigation() {}
 
-    addScorePoint() {}
+    /*
+    @param: points int
+    */
+    addScorePoint(points) {}
 
-    addScoreCoin() {}
+    /*
+    @param: coins int
+    */
+    addScoreCoin(coins) {}
 
     screenToWorld() {}
 
