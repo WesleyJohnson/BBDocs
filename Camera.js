@@ -1,5 +1,8 @@
 class Camera {
-    setProjectionMatrix() {}
+    /*
+    @param: matrix
+    */
+    setProjectionMatrix(matrix) {}
 
     /*
     @param: x number
