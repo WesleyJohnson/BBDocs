@@ -63,7 +63,10 @@ class Entity {
     */
     setRotation(x, y, z) {}
 
-    setRotationQuat() {}
+    /*
+    @param: quaternion Quaternion
+    */
+    setRotationQuat(quaternion) {}
 
     /*
     @param: x number
@@ -81,9 +84,15 @@ class Entity {
 
     children() {}
 
-    addChild() {}
+    /*
+    @param: child
+    */
+    addChild(child) {}
 
-    setAnimate() {}
+    /*
+    @param: animate Boolean
+    */
+    setAnimate(animated) {}
 
     find() {}
 
