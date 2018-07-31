@@ -1,9 +1,9 @@
 class System {
-    os() {}
+    static os() {}
 
-    device() {}
+    static device() {}
 
-    screenSize() {}
+    static screenSize() {}
 
-    sendHapticFeedback() {}   
+    static sendHapticFeedback() {}   
 }

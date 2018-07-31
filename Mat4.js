@@ -1,13 +1,13 @@
 class Mat4 {
-    createOrthographic() {}
+    static createOrthographic() {}
 
-    createTranslation() {}
+    static createTranslation() {}
 
-    createRotation() {}
+    static createRotation() {}
 
-    multiply() {}
+    static multiply() {}
 
-    transformPoint() {}
+    static transformPoint() {}
 
-    inverse() { }
+    static inverse() { }
 }

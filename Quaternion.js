@@ -10,4 +10,8 @@ class Quaternion {
     inverse() {}
 
     toEuler() {}    
+
+    static fromEuler(){}
+
+    static lookAt(){}
 }
